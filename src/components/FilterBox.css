@@ -1,0 +1,70 @@
+.filter-box {
+	position: absolute;
+	width: 312px;
+	max-height: 100vh;
+	flex-shrink: 0;
+	border-radius: 10px;
+	border: 1px solid #eb8181;
+	background: #fff;
+	z-index: 1000;
+	padding: 32px;
+	box-sizing: border-box;
+	overflow-y: auto;
+}
+
+.filter-box::-webkit-scrollbar {
+	width: 8px; /* Set the width of the scrollbar */
+}
+
+.filter-box::-webkit-scrollbar-thumb {
+	background-color: #eb8181; /* Set the color of the scrollbar thumb */
+	border-radius: 4px; /* Set the border-radius of the scrollbar thumb */
+}
+
+.filter-box::-webkit-scrollbar-track {
+	border-radius: 4px; /* Set the border-radius of the scrollbar track */
+	background-color: transparent;
+}
+
+.close-button {
+	width: 24px;
+	height: 24px;
+	flex-shrink: 0;
+	fill: #eb8181;
+	position: absolute;
+	top: 8px;
+	right: 8px;
+	cursor: pointer;
+}
+
+.set-button {
+	width: 64px;
+	height: 24px;
+	flex-shrink: 0;
+	border-radius: 50px;
+	background: #eb8181;
+	border: none;
+	color: #fdf5e6;
+	text-align: center;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.filter-footer {
+	display: flex;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	justify-content: center;
+}
+
+.filter-content {
+	margin-bottom: 20px;
+}
+
+.disabled {
+	cursor: not-allowed;
+	opacity: 0.6;
+}

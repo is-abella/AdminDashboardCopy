@@ -1,0 +1,37 @@
+/* src/pages/Overview.css */
+.overview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.rowCountBox {
+  background-color: #fdf5e6;
+  padding: 2%;
+  border-radius: 10px;
+  height: 10%;
+
+}
+
+.horizontal-divider {
+	border-bottom: 1px solid #ddd; /* Adjust the color as needed */
+	width: 100%;
+	margin-top: 20px; /* Adjust the margin as needed */
+	margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+
+.title {
+  color: #565454;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

@@ -1,0 +1,105 @@
+.label {
+	width: fit-content;
+	height: 24px;
+	flex-shrink: 0;
+	border-radius: 50px;
+	background: #fdf5e6;
+	color: #eb8181;
+	text-align: center;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	justify-content: center;
+	padding: 0px 8px;
+}
+
+.options-list {
+	list-style: none;
+	flex-shrink: 0;
+	border-radius: 15px;
+	border: 1px solid #eb8181;
+	background: #fdf5e6;
+	margin: 0;
+	color: #565454;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding: 8px 16px;
+}
+
+.options-list li {
+	cursor: pointer;
+}
+
+.options-list li:not(:last-child) {
+	padding: 8px 0px;
+	border-bottom: 1px solid #eb8181;
+}
+
+.options-list li:last-child {
+	padding: 8px 0px;
+}
+
+/*styling for date filter*/
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+	color: #c4c4c4;
+	text-align: center;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.MuiOutlinedInput-root.MuiInputBase-colorPrimary,
+.MuiOutlinedInput-notchedOutline {
+	border: none;
+	border-bottom: 1px solid #eb8181;
+	border-radius: 0;
+}
+
+.date-input {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 44px;
+	width: 160px;
+	height: 120px;
+	flex-shrink: 0;
+	border-radius: 15px;
+	border: 1px solid #eb8181;
+	background: #fdf5e6;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+	padding: 4px 0px 5px 0px !important;
+	text-align: center;
+}
+
+.date-input span {
+	margin: 8px 0;
+	color: #565454;
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.selected {
+	color: #565454;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	padding-left: 8px;
+}
+
+.labelandoption {
+	display: flex;
+	flex-direction: row;
+}

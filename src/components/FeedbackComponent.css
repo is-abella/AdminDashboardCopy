@@ -1,0 +1,25 @@
+/* Update your CSS file */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent default body scroll */
+  }
+  
+  .feedback-container {
+    height: 100vh; /* 100% of the viewport height */
+    overflow-y: scroll;
+  }
+  
+  .feedback-item {
+    margin-bottom: 10px; /* Add margin between feedback items */
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px; /* Add padding for better spacing within each feedback item */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    color: #565454;
+    display: flex;
+    align-items: center;
+  }
+  /* Add 

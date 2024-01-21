@@ -1,0 +1,27 @@
+.overview-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 20px;
+    width: 100%;
+  }
+  
+  .rowCountBox {
+    background-color: #fdf5e6;
+    padding: 10px;
+    border-radius: 10px;
+    height: 300px;
+  
+  }
+  .title {
+    color: #565454;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
